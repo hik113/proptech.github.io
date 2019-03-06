@@ -1,0 +1,31 @@
+*{box-sizing: border-box}
+
+.container { width:300px; overflow: hidden; margin:50px auto 0 auto}
+
+.box {float:left; width: 100px; 
+    height: 100px; 
+    text-align: center; 
+    border: 1px solid #000; 
+    transition: all .25s ease-in-out; 
+    cursor: pointer; 
+    font-size: 100px
+
+
+}
+
+#turn {width: 100%; display: block; text-align: center; font-size: 25px; background: #446CB3}
+
+
+button{ 
+    background: #26C281; 
+    color: #fff; 
+    font-weight: bold; 
+    curser: pointer; 
+    width: 200px; 
+    height: 40px; 
+    font-size: 22px; 
+    border: 1px solid yellow; 
+    display: block; 
+    margin: 10px auto
+
+}
