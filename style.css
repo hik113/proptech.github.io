@@ -1,0 +1,241 @@
+
+
+/* background image of html*/
+html{
+    background-image:url("images/white-waves.png");
+} 
+
+header img {
+    border-radius: 75px;
+}
+
+ /* layout styles*/
+/* #logo{
+    width: 100px;
+    height: 100px; 
+    position: fixed; 
+
+} */
+
+
+
+
+nav{
+    float: left; 
+    clear:both; 
+    position: fixed; 
+    top: 0px;
+    right:15px;
+}
+
+nav ul li{
+    display: inline-block; 
+    margin-left: 16px;
+    padding: 10px; 
+
+    
+}
+
+nav ul{
+    padding-left: 0; background-color: turquoise; 
+
+}
+
+@media(max-width: 480px){
+    nav ul{
+        float: center; 
+    }
+
+}
+
+.container{
+    
+    width: 100% 
+    margin: 0 auto; 
+    border-style: dotted; 
+}
+
+.container-children{
+    border-style: dotted; 
+}
+
+
+#left-content{
+    float:left; 
+    max-width: 500px; 
+
+}
+
+#aside{
+     /* float: right;  */
+     /* width: 200px;  */
+     width: 200px; 
+     /* width: 100%;  */
+     display: inline-block; 
+     /* border-style: solid;  */
+     /* padding: 5px; 
+     min-width: 200px;  */
+     text-align: left; 
+     border-style: dotted; 
+
+}
+
+@media(max-width: 768px){
+    #aside{
+        display: block; 
+        max-width: 100%; 
+          
+    }
+}
+
+footer{
+    clear: both; 
+}
+
+body{
+     font-family: segoe UI; 
+     line height: 2.0cm; 
+}
+
+
+
+h1{
+    color: black;
+    font-family: "Felipa";
+    text-align:center;
+    text-decoration:underline;
+    font-size: 72px;
+}
+
+h2, h3, h4 {
+    color: rebeccapurple;
+    font-family: Comic Sans MS; 
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-top-left-radius: 150px; 
+    border-top-right-radius: 150px; 
+    border-bottom-left-radius: 150px; 
+    border-bottom-right-radius: 150px; 
+    display:inline; 
+}
+
+#sunway { 
+    width: 150px; 
+    height: 150px; 
+}
+
+#spsetia{}
+
+.highlight { 
+    background-color: blue; 
+    text-transform: italic; 
+}
+
+div img {
+    border-radius: 75px; 
+    display: inline;
+    width:150px; 
+    height: 150px; 
+}
+
+.houses {
+    display: inline-block; 
+    background-color: aquamarine; 
+}
+
+
+
+.back-to-top{
+    position:fixed; 
+    bottom: 30px; 
+    right: 30px
+}
+
+
+.clear {
+    clear: both;
+}
+
+.box{
+    width: 80px; 
+    height: 80px; 
+    background: #009999; 
+    margin:5px; 
+}
+
+#container0{
+    height: 300px; 
+    width: 100%; 
+    border: solid 2px black; 
+    position: relative; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: row; 
+    flex-wrap: nowrap; 
+
+
+}
+
+
+#showcase{
+    border: solid 1px black; 
+    width: 100%; 
+    margin: 1px; 
+    flex-wrap: nowrap; 
+    display: inline-flex; 
+}
+.card{
+    height: 300px; 
+    width: auto; 
+    border: solid 1px black; 
+    vertical-align: top; 
+    margin: 2px; 
+    
+    flex-direction: column; 
+    
+}
+
+.content {
+    background: lightgray; 
+    flex-grow: 1; 
+}
+
+.footer {
+    background: cadetblue; 
+    text-align: center; 
+}
+
+
+@media(max-width: 480px){
+    nav ul{
+        float: center; 
+    }
+
+}
+
+
+
+@media(max-width: 768px){
+    #aside{
+        display: block; 
+        max-width: 100%; 
+          
+    }
+}
+
+
+
+/* #target {
+
+    position: absolute
+    right: 20px; 
+    transform: translate(-50%, -50%)
+
+    /* margin-left: auto; 
+    margin-right: auto; 
+     */
+    /* inline block does not take in the full width of its parent */
